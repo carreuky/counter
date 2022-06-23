@@ -13,3 +13,10 @@ button10.addEventListener('click', ()=>{
   indicator.textContent = (parseInt(indicator.textContent) + 10).toString()
 
 })
+const button15= document.querySelector('#plusFifteen')
+
+button15.addEventListener('click', ()=>{
+  disp.textContent='added 15'
+  indicator.textContent = (parseInt(indicator.textContent) + 15).toString()
+
+})
